@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "username": "helen",
+      "email": "hchalmers23@gmail.com",
+      "zipcodeId": 1,
+      "id": 1
+    },
+    {
+      "username": "M",
+      "email": "m",
+      "zipcodeId": 1,
+      "id": 2
+    },
+    {
+      "username": "M",
+      "email": "m",
+      "zipcodeId": 1,
+      "id": 3
+    },
+    {
+      "username": "m",
+      "email": "m",
+      "zipcodeId": 1,
+      "id": 4
+    },
+    {
+      "username": "m",
+      "email": "m",
+      "zipcodeId": 1,
+      "id": 5
+    }
+  ],
+  "zipcodes": [],
+  "weatherForecasts": []
+}

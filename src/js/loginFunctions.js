@@ -13,6 +13,7 @@ document.querySelector(".loginButton").addEventListener("click", ()=>{
     }
     db.saveData(newUser);
     sessionStorage.setItem("users", JSON.stringify(newUser));
+    location.reload()
     
      });
   

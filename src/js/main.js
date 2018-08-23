@@ -4,11 +4,18 @@ let loginDamnit = require("./loginFunctions");
 
 // let userName = JSON.parse(sessionStorage.users).username;
 // console.log(userName);
-function funHouse () {let userName = JSON.parse(sessionStorage.users).username, return document.querySelector(".container").innerHTML = `You have logged in ${userName}`}
+function funHouse () {
+    let userName = JSON.parse(sessionStorage.users).username
+     document.querySelector(".container").innerHTML = `You have logged in ${userName}`
+}
+function unFunHouse (){document.querySelector(".container").innerHTML = logIn()
+ loginDamnit();}
+ 
+sessionStorage.users ? funHouse() : unFunHouse();
 
-sessionStorage ? funHouse() : document.querySelector(".container").innerHTML = logIn();
 
-// , loginDamnit()
+
+
 
 
 
